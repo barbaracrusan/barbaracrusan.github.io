@@ -1,0 +1,324 @@
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Custom CSS for personal website */
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+html, body {
+    min-height: 100%;
+}
+
+/*Add custom font*/
+body {
+  font-family: 'Franklin Gothic Medium', sans-serif !important;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+main {
+	font-weight: 200;
+}
+
+footer {
+    color: #91aef7;
+    height: 50px;
+    text-align: right;
+    margin-top: -50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-right: 10%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*Customize photo and name color/font/spacing */
+.tippy-top, .tippy-top a {
+	margin-top: 1rem;
+	letter-spacing: 3px;
+	color: #0086b3;
+} .tippy-top img {
+    width: 220px;
+}
+
+.name-largecaps {
+    font-size: 3.5rem;
+    text-decoration: none !important;
+} .name-smallcaps {
+    font-size: 3rem;
+    text-decoration: none !important;
+} .first-name {
+    margin-left: -3%;
+} .last-name {
+    margin-right: -3%;
+}
+
+.bubble-border {
+	font-size: 12px;
+}
+
+/*Customize header colors & font*/
+.site-header {
+    background-color: #ffffff;
+}
+.menu-item, .site-header .menu-item {
+    color: #0086b3;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.site-header a:hover {
+    color: #004d66 !important;
+}
+
+.site-header .dropdown-menu {
+    border-width: 0px;
+    border-radius: 0px;
+    border-left: 2px solid #004d66;
+}
+
+/*Customize buttons*/
+.btn {
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #0086b3 !important;
+    border-color: #0086b3;
+}
+.btn:hover, .btn:focus, .btn:active {
+    color: white !important;
+    background-color: #0086b3;
+    border-color: #0086b3;
+}
+
+.fa, .fab {
+    color: #0086b3;
+}
+
+.venn {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+} .venn-left {
+    background-color: rgba(255, 0, 0, 0.2);
+    left: 0;
+    right: 0;
+} .venn-right {
+    background-color: rgba(0, 0, 255, 0.2);
+    left: 150px;
+    right: 0;
+} .venn-wrapper {
+    display: inline-block;
+    position: relative;
+    height: 250px;
+    width: 400px;
+}
+
+.dj-lists {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*Modifications for mobile*/
+@media only screen and (max-width: 600px) {
+    body {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .dropdown-menu a {
+        text-align: right;
+    } .dropdown-menu {
+        border-width: 0px;
+        border-radius: 0px;
+        border-left: 2px solid #004d66;
+    }
+
+    .tippy-top img {
+        width: 150px;
+    }
+
+    .bubble-border-mobile {
+        font-size: 10px;
+        color: #0086b3 !important;
+        letter-spacing: 3px;
+    }
+
+    .tippy-top a {
+        letter-spacing: 1px;
+    } .name-largecaps {
+        font-size: 2rem;
+        margin-bottom: 0rem;
+        text-decoration: none;
+    } .name-smallcaps {
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .site-header-mobile {
+        background-color: #ffffff;
+        margin-bottom: -5%;
+    } .navbar-toggler {
+        border-width: 0px;
+        border-radius: 3px;
+    } .navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active {
+        color: white !important;
+        background-color: #0086b3;
+    } .navbar-toggler:hover .fa, .navbar-toggler:focus .fa, .navbar-toggler:active .fa {
+        color: white;
+    }
+    .mobile-menu {
+        margin-right: 5%;
+        margin-top: -2%;
+        text-align: right;
+    }
+    .mobile-menu li{
+        margin-bottom: 0.5rem;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .menu-item {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .venn-wrapper {
+        margin-top: 20px;
+    }
+}
+
+/*- - - - - - - - HOME PAGE - - - - - - - - */
+/*Add margins to description on homepage*/
+.description {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*Set format for soundcloud embed*/
+.soundcloud-embed {
+    height: 150;
+}
+
+/*Modifications for mobile*/
+@media only screen and (max-width: 600px) {
+    .description {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
+
+/*- - - - - - - - INTEREST PAGES - - - - - - - - */
+
+.project-blurbs {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.project-blurbs .row {
+    display: flex;
+    align-items: center;
+}
+
+/*Modifications for mobile*/
+@media only screen and (max-width: 600px) {
+    .project-blurbs img {
+        margin-bottom: 1.5rem;
+        color: red;
+    }
+
+    .project-blurbs {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+/*- - - - - - - - CV PAGE - - - - - - - - */
+
+/*Update CV headings*/
+h3, h5 {
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+td {
+    padding-right:20px;
+    vertical-align: text-top;
+    min-width: 120px;
+}
+.cv-row {
+    margin-left:10%;
+    margin-right:10%
+}
+
+/*Modifications for mobile*/
+@media only screen and (max-width: 600px) {
+    .cv-row {
+        margin-left: -18%;
+        margin-right: -18%;
+    }
+    td {
+        padding-right:10px;
+        min-width: 110px;
+    }
+}
+
+/*- - - - - - - - CONTACT PAGE - - - - - - - - */
+
+/*Make contact links grey and fade when hovered*/
+.contact-info {
+	margin-left: 10%;
+	margin-right: 10%;
+    margin-top: 5%;
+    /*padding-left: 5rem;*/
+    color: #818181;
+}
+.contact-info img {
+	opacity: 0.5;
+}
+.contact-info .contact-link:hover {
+	opacity: 0.25;
+}
+.contact-link {
+    color: #818181;
+    text-decoration: none !important;
+}
+.contact-info, .contact-info .fa, .contact-info .fab {
+    color: #818181;
+}
+
+/*- - - - - - - - MAPS PAGE - - - - - - - - */
+.map-o-favorites {
+    padding: 1rem;
+}
+
+.map-o-favorites iframe {
+    width: 100%;
+}
+
+
+/*@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.headshot {
+  animation: 1s ease-out 0s 1 slideInFromTop;
+}
+
+@keyframes getTaller {
+  0% {
+    height:0px;
+  }
+  100% {
+    height:220px;
+  }
+}
+.picture-spot {
+  animation: 1s ease-out 0s 1 getTaller;
+}*/
