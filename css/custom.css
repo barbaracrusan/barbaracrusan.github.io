@@ -30,6 +30,13 @@ footer {
 	font-size: 0.5rem;
 }
 
+a {
+  color: #006080 !important;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*Customize photo and name color/font/spacing */
 .tippy-top, .tippy-top a {
