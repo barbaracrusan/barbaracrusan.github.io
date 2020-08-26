@@ -172,9 +172,8 @@ a:hover {
   text-decoration: underline;
 }
 
-/*go back to inherit instead of red if necessary*/
 a:not([href]):not([tabindex]) {
-  color: red; 
+  color: inherit; 
   text-decoration: none;
 }
 
