@@ -1,6 +1,6 @@
 # GitHub Repository for barbaracrusan.github.io
 
-This GitHub repository contains the files needed for my personal website. A lot of it was inspired by Lauren Chambers' incredible website: https://laurenmarietta.github.io/.
+This GitHub repository contains the files needed for my personal website (https://barbaracrusan.github.io). A lot of it was inspired by Lauren Chambers' incredible website: https://laurenmarietta.github.io/.
 
 ### Resources needed to create files similar to the ones in this repository:
 - [GitHub Pages](https://pages.github.com/) - free website hosting through GitHub
