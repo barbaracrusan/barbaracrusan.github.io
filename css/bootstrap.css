@@ -167,15 +167,8 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-a:link {
-  color: #006080;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-
 a:hover {
-  color: #0056b3;
+  color: #004d66;
   text-decoration: underline;
 }
 
