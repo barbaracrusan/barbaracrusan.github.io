@@ -6,13 +6,16 @@ title: BLOG
 <main>
 
 Below, you will find excerpts of my most recent posts and links to them. I usually blog about physics, academia, policy, or maybe just something that is keeping me awake at night (which might or might not turn into a cohesive piece of text). My posts reflect my own opinions only and not necessarily those of organizations that I'm a part of. 
-<br>
+<br><br>
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
       {{ post.excerpt }}
+      <br>
+      <!-- <a class="btn btn-outline-secondary my-2 mx-2" role="button"
+         href="{{ post.url }}">READ MORE</a> -->
     </li>
   {% endfor %}
 </ul>
